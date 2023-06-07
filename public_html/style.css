@@ -1,0 +1,105 @@
+/* 기본 설정 */
+body {
+	margin: 100px 0 100px 0;
+	padding: 0px;
+	background: #fff url(img/bg.png) repeat fixed;
+}
+
+::-webkit-scrollbar {width: 8px;}
+::-webkit-scrollbar-track {background-color: transparent;}
+::-webkit-scrollbar-thumb {background-color: #dddddd;}
+::-webkit-scrollbar-thumb:hover {background-color: #cccccc;}
+
+::selection {background-color:ccc; color: #fff; text-shadow: none;}
+::-moz-selection {background-color:ccc; color: #fff; text-shadow: none;}
+::-webkit-selection {background-color:ccc; color: #fff; text-shadow: none;}
+* {
+scrollbar-arrow-color: #ffffff;
+scrollbar-face-color: #dddddd;
+scrollbar-track-color: #ffffff;
+scrollbar-highlight-color: #ffffff;
+scrollbar-shadow-color: #ffffff;
+scrollbar-3dlight-color: #ffffff;
+scrollbar-darkshadow-color: #ffffff;
+}
+
+
+/* body 외 기본값 */
+body {
+	font-family:verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	line-height: 160%;
+	color: #222;
+}
+img {
+	border: 0 none;
+}
+
+a, li, img {
+transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+text-decoration: none;
+}
+
+a:link, a:visited, a:active {color: #333333; text-decoration: none;}
+a:hover {color: #dddddd; text-decoration: none;}
+
+.menu_m {
+font-family: calibri;
+float: center;
+padding: 0;
+font-size: 11px;
+}
+.menu_m a:link, .menu_m a:visited, .menu_m a:active {
+display: inline-block;
+*display: inline;
+zoom:1;
+width: 120px;
+margin: 6px 2px 6px 2px;
+padding: 8px 0 8px 0;
+color: #222222;
+font-family: calibri;
+text-align:center;
+letter-spacing: 2px;
+text-transform: uppercase;
+line-height: 1;
+}
+.menu_m a:hover {
+color: #222222;
+letter-spacing: 10px;
+background: #f7f7f7;
+}
+
+#menu {
+	text-align: center;
+	position: fixed;
+	width: 140px;
+	z-index: 1;
+}
+
+
+/* 기본 테이블 */
+table {
+	padding: 0;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+table.main {
+	margin:auto;
+}
+td {
+	margin: 0px;
+	padding: 0px;
+	font-family:verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	line-height: 160%;
+	color: #222;
+}
+td.contents {
+	padding: 80px 20px 80px 20px;
+}

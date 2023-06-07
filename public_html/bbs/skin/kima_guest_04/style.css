@@ -1,0 +1,20 @@
+BODY,TD,SELECT,input,DIV,form,TEXTAREA,center,option,pre,p,blockquote,td,br {font-family:tahoma;font-size:8pt;color:#666666;line-height:160%;}
+
+a:link    {color:#666666;text-decoration:none;}
+a:visited {color:#666666;text-decoration:none;}
+a:active  {color:#666666;text-decoration:none;}
+a:hover   {color:#008A00;text-decoration:none;}
+
+.input {border:1 dotted #E2E2E2;background-color:transparent;}
+.submit {border:0;background-color:transparent;height:18px;font-family:tahoma;font-size:7pt;letter-spacing:0;}
+.thm7 {font-family:tahoma;font-size:7pt;letter-spacing:0;}
+.reply_border {border:1 dotted #E2E2E2;background-color:#F9F9F9;}
+.notice {border:1 dotted #E2E2E2;background-color:transparent;width:350;}
+
+body {scrollbar-3dlight-color:#FFFFFF;
+         scrollbar-arrow-color:#008800;
+         scrollbar-track-color:#FFFFFF;
+         scrollbar-darkshadow-color:#FFFFFF;
+         scrollbar-face-color:#FFFFFF;
+         scrollbar-highlight-color:#F2F2F2;
+         scrollbar-shadow-color:#F2F2F2;}

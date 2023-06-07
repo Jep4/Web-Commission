@@ -1,0 +1,38 @@
+BODY { scrollbar-3dlight-color:#ffffff;
+scrollbar-arrow-color:87A52B;
+scrollbar-track-color:#ffffff;
+scrollbar-darkshadow-color:#ffffff;
+scrollbar-face-color:#ffffff;
+scrollbar-highlight-color:#Ffffff;
+scrollbar-shadow-color:#e0e0e0;
+background-color:transparent;}
+
+BODY,TD,input,DIV,form,TEXTAREA,center,option,pre,blockquote {font-size:8pt; font-family:verdana; color:#222222; line-height:180%;}
+body {overflow-x:hidden; overflow-y:auto;}
+SELECT {font-size:8pt}
+
+A:link    {color:#222222;text-decoration:none; }
+A:visited {color:#222222;text-decoration:none; }
+A:active  {color:#222222;text-decoration:none; }
+A:hover  {color:87A52B;text-decoration:none; }
+
+.v7 {font-family:verdana;font-size:7pt;color:#222222;}
+.b7 {font-family:verdana;font-size:7pt;color:#222222;}
+.textarea {border:solid 1px #efefef;background-color:transparent; overflow-x:hidden; overflow-y:auto;width:90%;}
+.input {border:solid 1px #efefef;background-color:transparent; line-height:120%;}
+.input2{font-family:verdana;font-size:8pt; border:solid 0; color:ffffff;background-color:transparent;line-height:120%;}
+.table {border: solid 1px #efefef;}
+.commen {border:solid 1px #efefef;background-color:transparent; overflow-x:hidden; overflow-y:auto;}
+.esoline {background-color:#efefef;}
+.esoline1 {background-color:87A52B;}
+.num {font-family:verdana; font-size:7pt;color:#222222; line-height:120%;}
+.date {font-family:verdana; font-size:7pt; color=#222222;}
+.esoimg {padding:4px;border-width:1px;border-color:#E9E8E8;border-style:solid}
+
+.submit {border:solid 0;font-family:verdana;font-size:7pt;color:#ffffff;background-color:87A52B;line-height:15px;}
+.com {font-family:verdana; font-size:7pt; color=87A52B;}
+.sub {color:87A52B;}
+.RC {border-right:#E2E4E6 1px solid;border-left:#E2E4E6 1px solid;} 
+
+
+<!-- 포인트색코드 87A52B(2,17,27,32,33,34라인의 색코드를 바꿔주세요)-->

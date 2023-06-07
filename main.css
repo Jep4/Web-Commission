@@ -1,0 +1,11 @@
+﻿body {
+    width: 1920px;
+    min-height: 900px;
+    background-image: url('bg_inside.png');
+    background-color: black;
+    background-size: 80% auto; /* 1536 x 720 */
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    cursor: url("mouse.png"), auto;
+}

@@ -1,0 +1,44 @@
+﻿
+.module {
+}
+body {
+    width: 1920px;
+    min-height: 900px;
+    background-image: url('bg.png');
+    background-color: black;
+    background-size: 80% auto; /* 1536 x 720 */
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    cursor: url("mouse.png"), auto;
+}
+
+img {
+    width:9vw;
+    height:6vw;
+    object-fit: contain;
+}
+
+#yesbuttondiv {
+    top:51%;
+    left:32.5%;
+    float: left;
+}
+
+#nobuttondiv {
+    float: left;
+    top: 51%;
+    left: 42.5%;
+}
+
+#song{
+    float:left;
+}
+
+#yesbutton:hover, #nobutton:hover {
+    cursor: url("mouse.png"), auto;
+}
+
+.container{
+    position:fixed;
+}
