@@ -1,1 +1,0 @@
-<td nowrap><font class=color>жн</font><?=$print_category_data?></td>

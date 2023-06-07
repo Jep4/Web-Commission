@@ -1,1 +1,0 @@
-<td align=left nowrap class=SELECT><?=$print_category_data?>&nbsp;</td>

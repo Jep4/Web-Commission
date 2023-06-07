@@ -1,1 +1,0 @@
-<a href="http://kimamore.com" target="_blank"><font style=font-family:tahoma;font-size:7pt;>kima</a> + <a href=http://zb0922.tistory.com/  target=_blank  onfocus='this.blur()'><font style="font-family:small fonts;font-size:6pt;">Affogato</font></a>

@@ -1,1 +1,0 @@
-<td nowrap>£º<?=$print_category_data?></td>

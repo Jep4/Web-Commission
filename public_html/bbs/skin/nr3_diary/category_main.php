@@ -1,1 +1,0 @@
-<td nowrap align=center style='padding:1 0 0 0;' class=small>¡¡&nbsp; | &nbsp;¡¡<b><?=$print_category_data?></b></td>
