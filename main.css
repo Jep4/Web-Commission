@@ -52,13 +52,23 @@ img {
     animation: grow 0.2s ease-out 1 backwards;
 }
 
+#embed1 {
+    width: 1288px;
+    height: 705px;
+    display: none;
+    position: absolute;
+    left:410px;
+    top:85px;
+}
+
 
 #board {
+    position:absolute;
     padding-top:20px;
     padding-left: 16px;
     width: 1303px;
     display: none;
-    animation: grow 0.2s ease-out 1 backwards;
+    z-index:-1;
 }
 
 
@@ -136,7 +146,7 @@ img {
 }
 
 #count{
-    z-index:-1;
+    z-index:-2;
     left:1200px;
     position:absolute;
     float:left;
