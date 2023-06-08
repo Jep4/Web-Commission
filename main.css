@@ -1,11 +1,125 @@
-﻿body {
-    width: 1920px;
-    min-height: 900px;
+﻿@import url('https://fonts.googleapis.com/css2?family=Moirai+One&display=swap');
+
+body {
+    width: 1900px;
+    height: 1080px;
     background-image: url('img/bg_inside.png');
     background-color: black;
-    background-size: 80% auto; /* 1536 x 720 */
-    background-position: center;
+    background-size: 100% cover;
+    background-position: 0 0;
     background-repeat: no-repeat;
-    overflow: hidden;
-    cursor: url("mouse.png"), auto;
+    font-family: 'Moirai One', cursive;
+    font-size: 50px;
+    font-weight: bolder;
+    color: lightpink;
+    cursor: url("img/mouse.png"), auto;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+    height: 30%;
+    background: #ffc0cb;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+.small_icon{
+}
+.icon {
+    position: absolute;
+}
+
+/*
+img {
+    width: 9vw;
+    height: 6vw;
+    object-fit: contain;
+}*/
+
+#logo{
+    top:70px;
+    left:30px;
+
+}
+
+#menu{
+    float:left;
+    width:25%;
+    height:100%;
+}
+
+#about {
+    top:205px;
+    left:45px;
+    float: left;
+}
+#book{
+    top:205px;
+    left:197px;
+}
+#diary {
+    top: 395px;
+    left: 45px;
+    float: left;
+}
+#gallery {
+    top: 395px;
+    left: 197px;
+}
+#text {
+    top: 565px;
+    left: 45px;
+    float: left;
+}
+#report {
+    top: 565px;
+    left: 197px;
+    float: left;
+}
+#submenu4 {
+    top: 765px;
+    left: 45px;
+}
+#heart1 {
+    top: 885px;
+    left: 45px;
+    float: left;
+}
+#heart2 {
+    top: 885px;
+    left: 197px;
+    float: left;
+}
+
+#empty1{
+    float:left;
+    width:40%;
+    height:100%;
+}
+
+#empty2{
+    height:400px;
+}
+
+#count_text{
+    width:440px;
+    height:230px;
+    top:500px;
+    left:40px;
+    position:absolute;
+}
+
+#count{
+    z-index:-1;
+    left:1200px;
+    position:absolute;
+    float:left;
+    height:100%;
 }
