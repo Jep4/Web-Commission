@@ -194,11 +194,11 @@ img {
     width: 54px;
     border: 1px dotted black;
 }
-#list_box{
-    position:absolute;
-    top:30px;
-    left:1623px;
-    display:none;
+#list_box {
+    width: 265px;
+    position: absolute;
+    left: 1623px;
+    display: none;
 }
 
 #frame{
@@ -206,4 +206,30 @@ img {
     top:52px;
     left:415px;
     display:none;
+}
+
+#img_box {
+    top: 208px;
+    left: 569px;
+    position: absolute;
+    width: 1028px;
+    height: 709px;
+    display: none;
+    overflow: scroll;
+}
+
+#img_box::-webkit-scrollbar{
+    width:5px;
+    height:5px;
+}
+#img_box::-webkit-scrollbar-thumb {
+    background-color:white;
+}
+#img_box::-webkit-scrollbar-track {
+    background-color:pink;
+}
+
+.big_img{
+    z-index:2;
+    display:block;
 }
