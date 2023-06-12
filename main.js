@@ -1,20 +1,26 @@
 
-const gall = document.getElementById('gall');
+const gall = document.getElementById('gall_menu');
 const gall_icon = document.getElementById('gall_img');
+const listBox = document.getElementById('list_box');
 
 gall_icon.addEventListener('click', () => {
     if (board.style.display == 'block') {
         board.style.display = 'none';
         embed.style.display = 'none';
         gall.style.display = 'block';
+        listBox.style.display = 'block';
 
     }
     else {
         if (gall.style.display == 'block') {
             gall.style.display = 'none';
+            frame.style.display = 'none';
+            listBox.style.display = 'none';
         }
         else {
             gall.style.display = 'block';
+            frame.style.display = 'none';
+            listBox.style.display = 'block';
 
         }
 
@@ -30,6 +36,8 @@ const embed = document.getElementById('embed1');
 diary_img.addEventListener('click', () => {
     if (gall.style.display == 'block') {
         gall.style.display = 'none';
+        frame.style.display = 'none';
+        listBox.style.display = 'none';
         board.style.display = 'block';
         embed.style.display = 'block';
 
@@ -47,3 +55,13 @@ diary_img.addEventListener('click', () => {
 
     }
 });
+
+var images = document.querySelectorAll("#img_list>li>a");
+var frame = document.getElementById("frame");
+
+for (var i = 0; i < images.length; i++) {
+    images[i].addEventListener("click", function (e) {
+        e.preventDefault();
+        frame.style.display = 'block';
+    });
+}

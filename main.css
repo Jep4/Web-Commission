@@ -45,9 +45,10 @@ img {
 }*/
 
 
-#gall {
-    padding-left: 16px;
-    width:1504px;
+#gall_menu {
+    margin:0;
+    padding-left: 1255px;
+    width:265px;
     display: none;
     animation: grow 0.2s ease-out 1 backwards;
 }
@@ -57,7 +58,7 @@ img {
     height: 705px;
     display: none;
     position: absolute;
-    left:410px;
+    left:409px;
     top:85px;
 }
 
@@ -162,4 +163,47 @@ img {
     100% {
         height: 1078px;
     }
+}
+
+
+#list_box {
+}
+#img_list {
+    margin: 20px;
+}
+
+#img_list::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#img_list > li {
+    float: left;
+    margin: 10px 15px;
+    list-style:none;
+}
+
+#img_list > li > a {
+    display: block;
+    text-decoration: none;
+}
+
+#img_list > li > a > img {
+    display: block;
+    width: 54px;
+    border: 1px dotted black;
+}
+#list_box{
+    position:absolute;
+    top:30px;
+    left:1623px;
+    display:none;
+}
+
+#frame{
+    position:absolute;
+    top:52px;
+    left:415px;
+    display:none;
 }
