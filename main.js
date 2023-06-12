@@ -12,12 +12,15 @@ var imgs = document.querySelectorAll("#img_box2>li");
 
 
 gall_icon.addEventListener('click', () => {
+
+    for (let k = 0; k < imgs.length; k++) {
+        imgs[k].style.display = 'none';
+    }
     if (board.style.display == 'block') {
         board.style.display = 'none';
         embed.style.display = 'none';
         gall.style.display = 'block';
         listBox.style.display = 'block';
-        imgBox.style.display = 'block';
 
     }
     else {
@@ -37,6 +40,9 @@ gall_icon.addEventListener('click', () => {
 });
 
 diary_img.addEventListener('click', () => {
+    for (let k = 0; k < imgs.length; k++) {
+        imgs[k].style.display = 'none';
+    }
     if (gall.style.display == 'block') {
         gall.style.display = 'none';
         frame.style.display = 'none';
