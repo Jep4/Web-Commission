@@ -11,16 +11,16 @@
     <div id="menu">
         <div id="logo" class="icon">
 
-            <a href="/index.html" id="yesbutton">
-                <img src="img/icon/logo.png" onmouseover="this.src='img/icon/logo2.png'" onmouseout="this.src='img/icon/logo.png' " border="0" alt="logo img">
+            <a href="/index.html" id="goMain">
+                <img src="img/icon/logo.png" onmouseover="this.src='img/icon/logo2.png'" onmouseout="this.src='img/icon/logo.png' " border="0" alt="logo img" id="logo_img">
             </a>
         </div>
         <div id="submenu1">
             <div id="about" class="small_icon icon">
-                <img src="img/icon/about_icon.png" onmouseover=" this.src='img/icon/about_icon2.png'" onmouseout="this.src='img/icon/about_icon.png'" border="0" alt="logo img">
+                <img src="img/icon/about_icon.png" onmouseover=" this.src='img/icon/about_icon2.png'" onmouseout="this.src='img/icon/about_icon.png'" border="0" alt="logo img" id="about_img">
             </div>
             <div id="book" class="small_icon icon">
-                <img src="img/icon/book_icon.png" onmouseover="this.src='img/icon/book_icon2.png'" onmouseout="this.src='img/icon/book_icon.png'" border="0" alt="logo img">
+                <img src="img/icon/book_icon.png" onmouseover="this.src='img/icon/book_icon2.png'" onmouseout="this.src='img/icon/book_icon.png'" border="0" alt="logo img" id="book_img">
             </div>
         </div>
         <div id="submenu2">
@@ -33,22 +33,22 @@
         </div>
         <div id="submenu3">
             <div id="text" class="small_icon icon">
-                <img src="img/icon/text_icon.png" onmouseover="this.src='img/icon/text_icon2.png'" onmouseout="this.src='img/icon/text_icon.png'" border="0" alt="logo img">
+                <img src="img/icon/text_icon.png" onmouseover="this.src='img/icon/text_icon2.png'" onmouseout="this.src='img/icon/text_icon.png'" border="0" alt="logo img" id="text_img">
             </div>
             <div id="report" class="small_icon icon">
-                <img src="img/icon/report_icon.png" onmouseover="this.src='img/icon/report_icon2.png'" onmouseout="this.src='img/icon/report_icon.png'" border="0" alt="logo img">
+                <img src="img/icon/report_icon.png" onmouseover="this.src='img/icon/report_icon2.png'" onmouseout="this.src='img/icon/report_icon.png'" border="0" alt="logo img" id="rep_img">
             </div>
         </div>
         <div id="submenu4" class="icon">
-            <img src="img/icon/message_icon.png" onmouseover="this.src='img/icon/message_icon2.png'" onmouseout="this.src='img/icon/message_icon.png'" border="0" alt="logo img">
+            <img src="img/icon/message_icon.png" onmouseover="this.src='img/icon/message_icon2.png'" onmouseout="this.src='img/icon/message_icon.png'" border="0" alt="logo img" id="mes_img">
         </div>
 
         <div id="submenu5">
             <div id="heart1" class="small_icon icon">
-                <img src="img/icon/heart1.png" onmouseover="this.src='img/icon/heart1_2.png'" onmouseout="this.src='img/icon/heart1.png'" border="0" alt="logo img">
+                <img src="img/icon/heart1.png" onmouseover="this.src='img/icon/heart1_2.png'" onmouseout="this.src='img/icon/heart1.png'" border="0" alt="logo img" id="h1_img">
             </div>
             <div id="heart2" class="small_icon icon">
-                <img src="img/icon/heart2.png" onmouseover="this.src='img/icon/heart2_2.png'" onmouseout="this.src='img/icon/heart2.png'" border="0" alt="logo img">
+                <img src="img/icon/heart2.png" onmouseover="this.src='img/icon/heart2_2.png'" onmouseout="this.src='img/icon/heart2.png'" border="0" alt="logo img" id="h2_img">
             </div>
         </div>
     </div>
@@ -73,8 +73,15 @@
             </ul>
         </div>
         <img src="img/gallery_menu.png" alt="gall_image" class="gallc" id="gall_menu">
-        <embed src="http://delightpi.ivyro.net/bbs/zboard.php?id=diary" id="embed1">
-        <img src="img/board.png" alt="board_image" class="boardc" id="board">
+        <embed src="http://delightpi.ivyro.net/bbs/zboard.php?id=book" class="embed bk" />
+        <embed src="https://delightpi.tistory.com/category/%EC%9D%BC%EA%B8%B0" class="embed dr" />
+        <embed src="http://delightpi.ivyro.net/bbs/zboard.php?id=text" class="embed txt" />
+        <embed src="http://delightpi.ivyro.net/bbs/zboard.php?id=webclap" class="embed rep" />
+        <embed src="http://delightpi.ivyro.net/webclap/smwclap.php" class="embed mes" />
+        <embed src="http://delightpi.ivyro.net/bbs/admin_setup.php" class="embed h1" />
+        <embed src=" http://delightpi.ivyro.net/webclap/wclapview.php" class="embed h2" />
+
+        <img src="img/board.png" alt="board_image" class="board abt bk dr txt rep mes h1 h2" id="board">
         <img src="img/gallery.png" alt="gall_frame" id="frame" />
     </div>
     <div id="img_box">
