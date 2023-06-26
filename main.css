@@ -46,8 +46,8 @@ img {
 
 
 #gall_menu {
-    margin:0;
-    padding-left: 1255px;
+    position:absolute;
+    left:1638px;
     width:265px;
     display: none;
     animation: grow 0.2s ease-out 1 backwards;
@@ -166,8 +166,6 @@ img {
 }
 
 
-#list_box {
-}
 #img_list {
     margin: 20px;
 }
@@ -197,8 +195,9 @@ img {
 #list_box {
     width: 265px;
     position: absolute;
-    left: 1623px;
+    left: 1628px;
     display: none;
+    z-index:3;
 }
 
 #frame{
